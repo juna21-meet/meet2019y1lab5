@@ -1,0 +1,8 @@
+def test_list(our_list):
+  if (len(our_list)> 2) and (our_list[0]==our_list[-1]):
+    return True
+  else:
+   return False
+    
+  
+  
